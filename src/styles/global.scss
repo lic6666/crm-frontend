@@ -1,0 +1,83 @@
+// 全局按钮样式
+.el-button {
+  &.el-button--primary {
+    color: #ffffff !important;
+    background-color: #66b1ff !important;
+    border-color: #66b1ff !important;
+
+    &:hover {
+      background-color: #85c0ff !important;
+      border-color: #85c0ff !important;
+    }
+  }
+
+  &.el-button--danger {
+    color: #ffffff !important;
+    background-color: #f56c6c !important;
+    border-color: #f56c6c !important;
+
+    &:hover {
+      background-color: #f78989 !important;
+      border-color: #f78989 !important;
+    }
+  }
+
+  &.el-button--success {
+    color: #ffffff !important;
+    background-color: #67c23a !important;
+    border-color: #67c23a !important;
+
+    &:hover {
+      background-color: #85ce61 !important;
+      border-color: #85ce61 !important;
+    }
+  }
+
+  &.el-button--warning {
+    color: #ffffff !important;
+    background-color: #e6a23c !important;
+    border-color: #e6a23c !important;
+
+    &:hover {
+      background-color: #ebb563 !important;
+      border-color: #ebb563 !important;
+    }
+  }
+
+  &.el-button--info {
+    color: #ffffff !important;
+    background-color: #909399 !important;
+    border-color: #909399 !important;
+
+    &:hover {
+      background-color: #a6a9ad !important;
+      border-color: #a6a9ad !important;
+    }
+  }
+}
+
+// 标签样式
+.el-tag {
+  color: #ffffff !important;
+  font-weight: normal;
+
+  &.el-tag--info {
+    background-color: #909399 !important;
+    border-color: #909399 !important;
+  }
+
+  &.el-tag--success {
+    background-color: #67c23a !important;
+    border-color: #67c23a !important;
+  }
+
+  &.el-tag--warning {
+    background-color: #e6a23c !important;
+    border-color: #e6a23c !important;
+  }
+
+  &.el-tag--danger {
+    background-color: #f56c6c !important;
+    border-color: #f56c6c !important;
+  }
+} 
