@@ -297,7 +297,7 @@ const dateShortcuts = [
 const filters = ref({
   search: '',
   grade: '',
-  creator: '',
+  user: '',
   tags: [],
   dateRange: null
 })
@@ -339,7 +339,7 @@ const fetchContacts = async () => {
       ordering: sortOrder.value,
       search: filters.value.search || undefined,
       grade: filters.value.grade || undefined,
-      creator: filters.value.creator || undefined,
+      user: filters.value.user || undefined,
       tags: Array.isArray(filters.value.tags) && filters.value.tags.length > 0 ? filters.value.tags.join(',') : undefined,
       created_after: filters.value.dateRange?.[0] || undefined,
       created_before: filters.value.dateRange?.[1] || undefined
@@ -367,7 +367,7 @@ const handleSearch = () => {
   filters.value = {
     search: searchQuery.value,
     grade: gradeFilter.value,
-    creator: creatorFilter.value,
+    user: creatorFilter.value,
     tags: tagsFilter.value,
     dateRange: dateRange.value
   }
